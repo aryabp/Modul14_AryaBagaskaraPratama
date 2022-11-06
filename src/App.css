@@ -45,7 +45,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: whitesmoke;
   padding: 3%;
 }
 .table th{
@@ -74,4 +74,29 @@
   font-size: calc(1px + 2vmin);
   color: white;
   
+}
+#navi {
+  padding-bottom: 5%;
+}
+#navi nav ul li {
+  display: inline;
+  float: left;
+  padding: 20px;
+  background-color: #282c34;
+  border: 1px solid white;
+}
+#navi nav ul li a{
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+#navi nav ul li:hover {
+  background-color: #61dafb;
+  border: 5px solid #282c34;
+  color: #282c34;
+}
+#popca{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
